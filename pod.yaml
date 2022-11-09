@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: trail-pod
+  labels:
+    app: httpd
+spec:
+  containers:
+    - name: myownpod
+      image: mohan629/deploy_images:1
+      ports:
+      - containerPort: 80
