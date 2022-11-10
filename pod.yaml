@@ -9,4 +9,4 @@ spec:
     - name: myownpod
       image: mohan629/deploy_images:1
       ports:
-      - containerPort: 80
+      - containerPort: 8080
