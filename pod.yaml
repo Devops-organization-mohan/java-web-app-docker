@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: myownpod
-      image: mohan629/deploy_images:1
+      image: mohan629/deploy_image:1
       ports:
       - containerPort: 8080
